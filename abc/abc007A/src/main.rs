@@ -10,4 +10,3 @@ fn main() {
     }
     println!("{}", n - 1);
 }
-

@@ -11,4 +11,3 @@ fn main() {
     let ans = (1..=n).collect::<Vec<u64>>().iter().sum::<u64>() * 10000 / n;
     println!("{}", ans);
 }
-

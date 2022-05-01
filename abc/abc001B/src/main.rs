@@ -15,10 +15,9 @@ fn main() {
     } else if n < 35000 {
         format!("{:02}", n / 1000 + 50)
     } else if n <= 70000 {
-        format!("{:02}", (n / 1000 - 30) / 5 + 80 )
+        format!("{:02}", (n / 1000 - 30) / 5 + 80)
     } else {
         "89".to_string()
     };
     println!("{}", val);
 }
-

@@ -9,11 +9,6 @@ fn main() {
         n: u64,
         m: u64,
     }
-    let ans = if n > m {
-        n
-    } else {
-        m
-    };
+    let ans = if n > m { n } else { m };
     println!("{}", ans);
 }
-
